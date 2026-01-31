@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-u85kwubc)++xd53f7=mjs#cv!(1%^e9x5cb76*yd*u)eolvu2d'
+SECRET_KEY = 'django-insecure-
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -140,8 +140,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # CONFIGURACIÓN DE FACEBOOK
 # Aquí pondremos las credenciales que obtuvimos de Facebook Developers
-FACEBOOK_APP_ID = '2067776030644149'   # ← Reemplaza con tu App ID real
-FACEBOOK_APP_SECRET = '98a2b6c55f9fcecb5d098db0f9206c86'  # ← Reemplaza con tu App Secret
+FACEBOOK_APP_ID = '2  # ← Reemplaza con tu App ID real
+FACEBOOK_APP_SECRET = ' # ← Reemplaza con tu App Secret
 FACEBOOK_REDIRECT_URI = 'http://localhost:8000/facebook/callback/'
 
 # IMPORTANTE: Nunca subas este archivo a repositorios públicos con credenciales reales
